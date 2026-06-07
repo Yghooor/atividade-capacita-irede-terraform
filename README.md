@@ -30,7 +30,7 @@ Abaixo está a justificativa técnica e o papel de cada recurso criado na arquit
 * **No Console:** Funciona como o vigilante na porta do servidor (nível de instância). Ele inspeciona cada pacote de dados e só permite que conexões SSH originadas do IP configurado cheguem até o sistema operacional.
 
 ### 6. Instância EC2 (Computação)
-* **No Código (`aws_instance`):** Instancia uma máquina virtual de tamanho `t3.micro` utilizando a AMI **Amazon Linux 2**.
+* **No Código (`aws_instance`):** Instancia uma máquina virtual de tamanho `t3.micro` utilizando a AMI **Amazon Linux**.
 * **No Console:** Trata-se do servidor virtualizado (hardware e sistema operacional) que executará as aplicações do laboratório.
  
 **Nota:** Durante a atividade foi verificado que a instância `t2.micro` não faz mais parte do Free Tier, segui atualizado para a geração mais próxima que é comtemplada pelo Free Tier, no caso a `t3.micro`.
