@@ -41,7 +41,7 @@ resource "aws_internet_gateway" "igw_lab" {
   }
 }
 
-# 4. Bloco destinado à configurar a tabela de rotas conforme requisito requisito: rota 0.0.0.0/0 para o IGW. 
+# 4. Bloco destinado à configurar a tabela de rotas conforme requisito: rota 0.0.0.0/0 para o IGW. 
 resource "aws_route_table" "rt_publica" {
   vpc_id = aws_vpc.vpc_lab.id
 
