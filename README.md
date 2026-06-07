@@ -33,7 +33,7 @@ Abaixo está a justificativa técnica e o papel de cada recurso criado na arquit
 * **No Código (`aws_instance`):** Instancia uma máquina virtual de tamanho `t3.micro` utilizando a AMI **Amazon Linux**.
 * **No Console:** Trata-se do servidor virtualizado (hardware e sistema operacional) que executará as aplicações do laboratório.
  
-**Nota:** Durante a atividade foi verificado que a instância `t2.micro` não faz mais parte do Free Tier, segui atualizado para a geração mais próxima que é comtemplada pelo Free Tier, no caso a `t3.micro`.
+**Nota:** Durante a atividade foi verificado que a instância `t2.micro` não faz mais parte do Free Tier, segui atualizado para a geração mais próxima que é contemplada pelo Free Tier, no caso a `t3.micro`.
 ---
 
 ## 📸 Evidências do Provisionamento
