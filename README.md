@@ -40,27 +40,29 @@ Abaixo está a justificativa técnica e o papel de cada recurso criado na arquit
 
 
 ### 1. VPC Criada
-![VPC Criada](caminho-para-seu-print-da-vpc.png)
+![VPC Criada](imagens/vpc.png)
 
 ### 2. Sub-rede Pública Configurada
-![Sub-rede](caminho-para-seu-print-da-subnet.png)
+![Sub-rede](imagens/subnet.png)
 
 ### 3. Tabela de Rotas Associada
-![Tabela de Rotas](caminho-para-seu-print-da-route-table.png)
+![Tabela de Rotas](imagens/route_table.png)
+![Tabela de Rotas](imagens/route_table_.png)
 
 ### 4. Security Group (Porta 22)
-![Security Group](caminho-para-seu-print-do-security-group.png)
+![Security Group input](imagens/security_group input.png)
+![Security Group output](imagens/security_group output.png)
 
 ### 5. Instância EC2 em Execução
-![Instância EC2](caminho-para-seu-print-da-ec2.png)
+![Instância EC2](imagens/ec2.png)
 
-### 6. Acesso SSH Efetuado com Sucesso via Terminal (A Grande Vitória)
-![Acesso SSH](caminho-para-seu-print-do-terminal.png)
+### 6. Acesso SSH Efetuado com Sucesso via Terminal.👨🏽‍💻
+![Acesso SSH](imagens/terminal.png)
 
 
 ## 🛠️ Como Executar este Projeto Localmente
 
 1. Certifique-se de ter o **AWS CLI** e o **Terraform** instalados.
-2. Autentique-se na sua conta através do terminal (com seu usuário do IAM):
+2. Autentique-se na sua conta através do terminal:
    ```bash
    aws configure
