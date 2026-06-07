@@ -50,8 +50,8 @@ Abaixo está a justificativa técnica e o papel de cada recurso criado na arquit
 ![Tabela de Rotas](imagens/route_table_.png)
 
 ### 4. Security Group (Porta 22)
-![Security Group input](imagens/security_group input.png)
-![Security Group output](imagens/security_group output.png)
+![Security Group input](imagens/security_group_input.png)
+![Security Group output](imagens/security_group_output.png)
 
 ### 5. Instância EC2 em Execução
 ![Instância EC2](imagens/ec2.png)
