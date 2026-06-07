@@ -1,0 +1,13 @@
+# A verificação abaixo ignora arquivos locais de estado e plugins do Terraform.
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+
+# A verificação abaixo ignora variáveis secretas locais do Terraform.
+*.tfvars
+*.tfvars.json
+
+# A verificação abaixo ignora chaves privadas da AWS
+*.pem
