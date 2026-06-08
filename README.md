@@ -23,7 +23,7 @@ Nos tópicos abaixo descrevo o papel de cada recurso criado na arquitetura para 
 
 ### 4. Tabela de Rotas e Associação (Route Table)
 * **No Código (`aws_route_table` & `aws_route_table_association`):** Cria a tabela que mapeia o destino `0.0.0.0/0` para o ID do Internet Gateway e, em seguida, vincula essa tabela à nossa sub-rede pública.
-* **No Console AWS:** Atua como o "guarda de trânsito" da rede. No painel, ele direciona ativamente os pacotes que saem da sub-rede pública em direção à internet através do IGW, exigindo que seja configurado as abas de "Rotas" e "Associações de Sub-rede".
+* **No Console AWS:** Atua como o "guarda de trânsito" da rede. No painel, ele direciona ativamente os pacotes que saem da sub-rede pública em direção à internet através do IGW, exigindo que seja configurado explicitamente as abas de "Rotas" e "Associações de Sub-rede".
 
 ### 5. Security Group (Firewall)
 * **No Código (`aws_security_group`):** Abre a porta de entrada `22 (TCP/SSH)` aplicando o princípio do privilégio mínimo ao restringir o acesso exclusivamente ao IP do administrador (utilizando o sufixo `/32`).
