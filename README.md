@@ -60,7 +60,7 @@ Nos tópicos abaixo descrevo o papel de cada recurso criado na arquitetura para 
 ![Acesso SSH](imagens/terminal.png)
 
 
-## 🛠️ Como Executar este Projeto Localmente
+## 🛠️ Como Executar este Projeto Localmente:
 
 1. Certifique-se de ter o **AWS CLI** e o **Terraform** instalados.
 2. Autentique-se na sua conta através do terminal:
