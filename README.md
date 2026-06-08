@@ -39,24 +39,24 @@ Nos tópicos abaixo descrevo o papel de cada recurso criado na arquitetura para 
 ## 📸 Evidências do Provisionamento
 
 
-### 1. VPC Criada
+### 1. VPC criada:
 ![VPC Criada](imagens/vpc.png)
 
-### 2. Sub-rede Pública Configurada
+### 2. Sub-rede pública configurada:
 ![Sub-rede](imagens/subnet.png)
 
-### 3. Tabela de Rotas Associada
+### 3. Tabela de Rotas associada:
 ![Tabela de Rotas](imagens/route_table.png)
 ![Tabela de Rotas](imagens/route_table_.png)
 
-### 4. Security Group (Porta 22)
+### 4. Security Group (Porta 22):
 ![Security Group input](imagens/security_group_input.png)
 ![Security Group output](imagens/security_group_output.png)
 
-### 5. Instância EC2 em Execução
+### 5. Instância EC2 em execução:
 ![Instância EC2](imagens/ec2.png)
 
-### 6. Acesso SSH Efetuado com Sucesso via Terminal.👨🏽‍💻
+### 6. Acesso SSH efetuado com sucesso via Terminal.👨🏽‍💻
 ![Acesso SSH](imagens/terminal.png)
 
 
