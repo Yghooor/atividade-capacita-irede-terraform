@@ -30,7 +30,7 @@ Nos tópicos abaixo descrevo o papel de cada recurso criado na arquitetura para 
 * **No Console AWS:** Funciona como o "vigilante" na porta do servidor (atuando diretamente no nível da instância). No painel, configuramos a aba de "Regras de Entrada" (Inbound Rules) para que o tráfego SSH seja inspecionado e liberado apenas para a origem autorizada. 
 
 ### 6. Instância EC2 (Computação)
-* **No Código (`aws_instance`):** Provisiona uma máquina virtual de tamanho t3.micro baseada na AMI Amazon Linux, vinculando-a diretamente à sub-rede pública e ao Security Group declarados anteriormente.
+* **No Código (`aws_instance`):** Provisiona uma máquina virtual de tamanho `t3.micro` baseada na AMI Amazon Linux, vinculando-a diretamente à sub-rede pública e ao Security Group declarados anteriormente.
 * **No Console AWS:** Representa o servidor virtualizado em execução. No painel do EC2, é onde monitoramos o status da máquina, visualizamos o IP público gerado e validamos as regras de segurança ativas no hardware.
  
 **Nota:📄** Durante a atividade verifiquei que a instância `t2.micro`, conforme solicitado na atividade, não faz mais parte do plano Free Tier. Optei seguir utilizando a instância de geração mais próxima que é contemplada pelo Free Tier, no caso a `t3.micro`.
